@@ -1,5 +1,5 @@
 ### Mobx
-由于公司这边用的React+mobX技术栈，本人便对mobX学习做了一个总结
+项目组用的 React + mobX 技术栈，本人对 mobX 的学习做了一个总结
 #### Mobx概念
 mobX官网介绍：通过透明的函数响应式编程(transparently applying functional reactive programming - TFRP)使得状态管理变得简单和可扩展，其核心思想是通过action触发state的变化，从而触发state的衍生对象Computed Values Reactions的变化，
 其主要有四个概念：
