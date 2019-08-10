@@ -99,7 +99,7 @@ const Dialog = React.lazy(() => {
 </React.Suspense>
 ```
 
-在lazy()传入动态import，在函数中动态引入StockChart组件。这样在我们渲染这个组件前，浏览器将不会下载./StockChart.js文件和它的依赖。
+在lazy()传入动态import，在函数中动态引入Dialog组件。这样在我们渲染这个组件前，浏览器将不会下载./Dialog.jsx文件和它的依赖。
 添加了<React.Suspense/>后，如果 React 要渲染 <Dialog /> 组件时，组件依赖的代码还没下载好，它将会渲染fallback属性传入的值，当全部子节点依赖的代码都准备好后，才会去渲染子节点内容。
 
 
