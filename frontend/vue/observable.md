@@ -2,7 +2,7 @@
 
 Vue的一个特点便是响应式，实现数据和UI视图的双向绑定。Vue2.x版本的响应式原理依赖于Object.defineProperty，
 （ps：Vue3.0以上版本将API换成 ES6 的 Proxy，从而返回代理的完整对象，而不是去劫持对象属性）
-####Vue init阶段
+#### Vue init阶段
 直接贴代码：
 ```javascript
 vm._self = vm
