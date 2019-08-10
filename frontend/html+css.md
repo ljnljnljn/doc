@@ -93,3 +93,9 @@ BEM的意思就是块（block）、元素（element）、修饰符（modifier）
     css-loader默认是 base64 算法，可以通过 localIdentName 定义类名
     CSS Modules 允许使用:global(.className)的语法，声明一个全局规则。凡是这样声明的class，都不会被编译成哈希字符串.
     CSS Modules 可以通过composes继承组合css规则
+
+## 总结：
+随着技术不断进步 CSS(3) HTML(5)功能越来越强，JS+CSS+HTML是前端基础的三大块，CSS+HTML用的人很多，深入的却不多（说的就是自己），应该在夯实基础的同时，多关注新技术。
+
+
+
